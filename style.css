@@ -96,6 +96,35 @@ body {
 /* section:first-child {
         text-align: center;
 } */
+@media only screen and (max-width: 806px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .section__content {
+        flex: 0 0 100%;
+    }
+
+    h2.section__title {
+        display: none;
+    }
+
+    h1.section__content {
+        font-size: 5.6em;
+        opacity: .86;
+        text-align: center;
+        justify-content: center;
+    }
+
+    html, body {
+        background-color: var(--primary);
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .header {
